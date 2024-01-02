@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "basic-intro-bayes-infer"
+version = "0.1.0"
+description = ""
+authors = ["Nagayu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+jupyter = "^1.0.0"
+numpy = "^1.26.2"
+pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.0"
+scipy = "^1.11.4"
+japanize-matplotlib = "^1.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
